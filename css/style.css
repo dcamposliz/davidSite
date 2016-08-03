@@ -1,5 +1,5 @@
 h1,h2,h3,h4,h5,h6,body{
-	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-family: Courier, monospace;
 	font-weight: normal;
 }
 
@@ -58,22 +58,68 @@ ul{
 	}
 
 .resumeblock {
-	margin-left: 150px;
+	margin-left: 15%;
 	margin-right: auto;
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
 
 .resumedetails{
-	font-size: 15px;
+	font-size: 13px;
 	padding-left: 0;
 	list-style-type: none;
 	overflow: hidden;
-	font-color: gray;
-
+	color: #737373;
 }
 
 .blue {
 	color: #006666;
 }
 
+.introBox{
+	padding-top: 20%;
+	padding-right: 15%;
+	padding-left: 15%;
+	background-color: rgba(255, 255, 255, .3);
+}
+
+.introDets{
+	list-style-type: none;
+	overflow: hidden;
+	color: #505050;
+	font-size: 1.4em;
+	font-family: Courier, monospace;
+}
+
+.header2{
+	margin-top: 20%;
+	margin-bottom: 20%;
+	color: gray;
+}
+
+.header2Text{
+	margin-top: 10%;
+	color: gray;
+	font-size: 4em;
+	letter-spacing: 20px;
+	text-align: center;
+}
+
+.projectBox{
+
+}
+
+.projectDets{
+	padding-top: 25%;
+	text-align: center;
+}
+
+.datShadow{
+	box-shadow: 5px 5px 10px #e6e6e6;
+}
+
+.cvHeader{
+	color: #cccccc;
+	font-size: 2em;
+	letter-spacing: 2px;
+}
